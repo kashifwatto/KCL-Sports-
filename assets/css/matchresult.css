@@ -1,0 +1,319 @@
+.topbuttoncontainer {
+    position: relative;
+}
+
+.matchdateselect {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.matchdateselect select {
+    background: rgba(43, 209, 220, 1);
+    padding: 15px 35px;
+    color: white;
+
+    text-align: center;
+
+}
+
+/* .topbuttoncontainer button {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24.84px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px;
+    background: transparent;
+    border: 1px solid rgba(43, 209, 220, 1);
+    border-radius: 5px;
+}
+
+.topbuttoncontainer button:hover {
+
+    background: rgba(43, 209, 220, 1);
+} */
+
+.matchresultcontainer {
+    border: 1px solid rgba(43, 209, 220, 1);
+    padding: 30px;
+    margin: 100px 0px;
+
+}
+
+.matchresultcontainer .result div {
+    margin: 10px 10px;
+}
+
+.matchresultcontainer h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.48px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 15px 0px;
+
+}
+
+.matchresultcontainer button {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24.84px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px;
+    background: rgba(43, 209, 220, 1);
+    border: 1px solid rgba(43, 209, 220, 1);
+    border-radius: 5px;
+    clip-path: polygon(13% 0, 100% 0%, 88% 100%, 0% 100%);
+
+    margin: 10px 15px;
+}
+
+.matchresultcontainer hr {
+    color:
+        rgba(255, 255, 255, 1);
+}
+
+@media(max-width:767px) {
+
+
+    .topbuttoncontainer {
+        margin-top: 100px;
+    }
+
+    .matchdateselect {
+        position: absolute;
+        top: -150%;
+        right: 0%;
+    }
+
+
+
+    .matchresultcontainer {
+        padding: 25px 5px;
+        margin: 30px 0px;
+    }
+
+    .matchresultcontainer h3 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 30.48px;
+        letter-spacing: -0.025em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        margin: 15px 0px;
+
+    }
+
+    .matchresultcontainer button {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24.84px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        padding: 10px;
+        background: rgba(43, 209, 220, 1);
+        border: 1px solid rgba(43, 209, 220, 1);
+        border-radius: 5px;
+        margin: 10px 5px;
+    }
+}
+
+
+.matchresultscontainer {
+    border: 1px solid rgba(43, 209, 220, 1);
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+#patnership {
+    background: rgba(21, 55, 108, 1);
+    position: relative;
+    z-index: 10;
+}
+
+#patnership #patnershipchart {
+    padding: 50px 10%;
+    z-index: 20;
+}
+
+#patnership #patnershipchart .patnershipcartinner {
+    margin: 50px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: rgba(19, 38, 77, 1);
+    /* Dark blue background */
+    /* color: rgba(9, 106, 216, 1); */
+    /* Light blue text */
+}
+
+#patnership #patnershipchart .patnershipcartinner .item {
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 30px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+#patnership #patnershipchart .patnershipcartinner .item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30.48px;
+    letter-spacing: -0.025em;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+#patnership #patnershipchart .patnershipcartinner .item h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30.48px;
+    letter-spacing: -0.025em;
+
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+#patnership #patnershipchart .patnershipcartinner .item h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.48px;
+    letter-spacing: -0.025em;
+
+    text-align: center;
+    color: rgba(43, 209, 220, 1);
+}
+
+#patnership #patnershipchart .patnershipcartinner .item .curvedborder img {
+    height: 35px;
+    width: 75%;
+    margin: 10px 0px;
+}
+
+@media(max-width:767px) {
+
+    .table-container {
+        width: 100%;
+        overflow-x: scroll;
+
+    }
+
+    #patnership #patnershipchart {
+        padding: 10px;
+    }
+
+    #patnership #patnershipchart .patnershipcartinner {
+        margin: 5px;
+        padding: 10px;
+
+    }
+
+    #patnership #patnershipchart .patnershipcartinner .item h3 {
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+
+    #patnership #patnershipchart .patnershipcartinner .item h4 {
+        font-size: 12px;
+
+    }
+
+    #patnership #patnershipchart .patnershipcartinner .item h1 {
+        font-size: 12px;
+
+    }
+
+    #patnership #patnershipchart .patnershipcartinner .item .curvedborder img {
+        height: 25px;
+        width: 75%;
+        margin: 5px 0px;
+    }
+
+}
+
+#matchfixturecontainer {
+    background: rgba(21, 55, 108, 1);
+}
+
+h6.name {
+    font-size: 17.01px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: -0.025em;
+    color: white;
+    margin-top: 5px;
+}
+
+#matchfixturecontainer h3.location {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.4px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    color: white;
+}
+
+#matchfixturecontainer h4.location {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25.4px;
+    letter-spacing: -0.025em;
+    text-align: center;
+
+    color: white;
+}
+
+#matchfixturecontainer .dayscontainer h3.days {
+    font-family: Cairo;
+    font-size: 15.28px;
+    font-weight: 700;
+    line-height: 19.4px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    border: 1px solid white;
+    display: inline-block;
+    width: 18%;
+
+    color: white;
+}
+
+.matchfixturebutton {
+    margin: 10px 0px;
+}
+
+.matchfixturebutton button {
+    padding: 10px 20px;
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.6px;
+    text-align: center;
+
+}
+
+.row.datecontainer {
+    margin-top: -25px;
+}
+
+.matchfixturecontaineritem {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.matchfixturecontaineritem {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+#matchfixturecontainer {
+    padding: 15px 10px;
+}
+
+@media(max-width:767px) {
+    .matchfixturecontaineritem .d-flex {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}

@@ -1,0 +1,155 @@
+.gallery-container {
+    margin: 30px 0px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+
+}
+
+.button-container .button-container-inner {
+
+    border: 1px solid rgba(43, 209, 220, 1);
+}
+
+.toggle-btn {
+    margin: 0px 0px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    clip-path: polygon(13% 0, 100% 0%, 88% 100%, 0% 100%);
+    font-family: Cairo;
+    font-size: 20px;
+    background-color: transparent;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.toggle-btn:hover {
+    background-color: rgba(43, 209, 220, 1);
+}
+
+.active-btn {
+    background-color: rgba(43, 209, 220, 1);
+}
+
+.content-section {
+    display: none;
+
+}
+
+/* Show the first section by default */
+#section1 {
+    display: block;
+}
+
+#photomain {
+    background: #112144;
+    position: relative;
+    z-index: 10;
+}
+
+#photomain #photomain-inner {
+    padding: 50px 10%;
+    z-index: 20;
+}
+
+#photomain #photomain-inner .header-img-container {
+    margin: 30px 0px;
+}
+
+.content-section .row {
+    margin: 25px 0px;
+
+}
+
+.content-section .row .image-container img {
+    width: 100%;
+
+}
+
+.frist-image {
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    border: 1px solid white;
+    background: #6c8695;
+    padding: 20px;
+    border-radius: 4px;
+    bottom: 10%;
+    right: 5%;
+
+}
+
+.text-container h3 {
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+
+}
+
+.text-container h4 {
+    font-family: Cairo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+
+    color: white;
+
+}
+
+.left-bg img{
+    top: 0%;
+left:0%;
+max-height:100% ;
+position: absolute;
+z-index: -1;
+opacity: 0.36;
+}
+.right-bg img{
+    top: 0%;
+right:0%;
+max-height:100% ;
+position: absolute;
+z-index: -1;
+opacity: 0.36;
+
+}
+
+
+@media(max-width:767px) {
+    .content-section .row {
+        margin: 0px 0px;
+
+    }
+
+    .content-section .row .image-container {
+        padding: 10px 0px;
+    }
+
+    #photomain #photomain-inner {
+        padding: 30px 10px;
+    }
+
+    .button-container {
+        display: block;
+    }
+
+    .text-container {
+        display: none;
+    }
+}

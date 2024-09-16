@@ -1,0 +1,166 @@
+#teamsquad {
+    background: #13264D;
+    position: relative;
+
+}
+
+#teamsquad #teamsquadinner {
+    padding: 50px 10%;
+}
+
+#teamsquad-container {
+    background: rgba(21, 55, 108, 1);
+    border: 1.16px solid #1F7CE6;
+
+    padding: 50px;
+    margin: 25px 0px;
+}
+
+.teamsquad-container h3 {
+    font-family: Cairo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.64px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.teamsquad-container .player-details {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3.98px 19.89px 0px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+    padding: 25px 25px 50px 25px;
+    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+
+}
+
+.teamsquad-container .player-details h4 {
+    font-family: Cairo;
+    font-size: 15.32px;
+    font-weight: 700;
+    line-height: 28.7px;
+    text-align: center;
+    color: rgba(18, 19, 61, 1);
+}
+
+.teamsquad-container .player-details h5 {
+    font-family: Cairo;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 17.23px;
+    text-align: center;
+
+    color: rgba(14, 72, 146, 1);
+}
+
+.teamsquad-container .row {
+    margin: 25px 0px;
+}
+
+.teamsquad-container hr.hr {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+@media(max-width:767px) {
+    #teamsquad #teamsquadinner {
+        padding: 30px 10px;
+    }
+
+    #teamsquad-container {
+
+        padding: 10px;
+        margin: 25px 0px;
+    }
+
+    #teamsquad-container .col img {
+        width: 100%;
+    }
+
+    #teamsquad-container .col {
+        margin: 25px 0px;
+    }
+
+    .teamsquad-container .row {
+        display: block;
+    }
+}
+
+@media(max-width:967px) {
+
+    #teamsquad-container .col {
+        margin: 25px 0px;
+    }
+
+}
+
+/* modal styles */
+
+.modal-content {
+    background: rgba(21, 55, 108, 1);
+}
+ 
+.modal-content  .modal-header .close-modal-icon{
+    background: rgba(43, 209, 220, 1);
+    padding: 0px 15px 5px 15px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modal-content .img-container-outer {
+    padding: 5px 30px;
+}
+.modal-content .modal-body {
+    /* padding: 0px; */
+    margin-top: -30px;
+}
+
+.modal-content .img-container-outer .img-container {
+    background-image: url('../images/teamsquad/player2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 10px;
+}
+
+.modal-content .img-container-outer .img-container img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.modal-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20.23px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.modal-content h4 {
+    font-size: 15.32px;
+    font-weight: 700;
+    line-height: 18.7px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.modal-content h5 {
+font-size: 15px;
+font-weight: 700;
+line-height: 15.11px;
+text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.modal-content .hr {
+    color:     rgba(255, 255, 255, 0.15);
+}

@@ -1,0 +1,70 @@
+#newsdetaspage{
+    background: #13264D;
+    background-image:url(../images/cloud-bg-left.png), url(../images/cloud-bg-right.png);
+    background-repeat:no-repeat;
+    background-position: left top, right top;
+}
+#newsdetails-inner{
+    padding: 50px 10%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+#newsdetails-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    margin:10px 0px
+    
+}
+#newsdetails-inner h3{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.54px;
+
+}
+#newsdetails-inner h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.54px;
+
+}
+#newsdetails-inner h5 li{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.54px;
+display:inline;
+color:rgba(43, 209, 220, 1);
+
+}
+#newsdetails-inner ul li{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.54px;
+color:rgba(43, 209, 220, 1);
+list-style: none;
+
+}
+#newsdetails-inner a{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29.54px;
+    
+color:rgba(43, 209, 220, 1);
+text-decoration: underline;
+}
+
+#newsdetails-inner h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29.54px;
+    
+color:rgba(43, 209, 220, 1);
+}
+@media(max-width:767px){
+    #newsdetails-inner{
+        padding: 10px ;
+
+    }
+}
+
